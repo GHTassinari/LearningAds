@@ -10,11 +10,24 @@
     font-size: 62.5%;
 }
 
-form {
+
+.container {
     display: flex;
     justify-content: center;
     height: 100vh;
     align-items: center;
+}
+
+a{
+    all: unset;
+    font-family: "Montserrat", sans-serif;
+    font-size: 6.4rem;
+}
+
+a:hover {
+    animation: glow 4s infinite;
+    cursor: pointer;
+    transition: transform 0.2s;
 }
 
 @keyframes glow {
@@ -27,14 +40,4 @@ form {
     100% {
         transform: scale(1);
     }
-}
-
-button {
-    all: unset;
-}
-
-button:hover {
-    animation: glow 4s infinite;
-    cursor: pointer;
-    transition: transform 0.2s;
 }
