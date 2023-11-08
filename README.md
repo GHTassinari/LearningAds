@@ -1,6 +1,8 @@
 # LearningAds
-A simple project using HTML, CSS and Javascript to create a landing page that doesn't have anything, to test Facebook and Google ads.
+A simple web project to create a landing page that doesn't have anything, to test Facebook and Google ads.
 
 I will include google ads and facebook ads script to the page, so when I open the Vercel page, the extension will say that I have the script included in the page.
 
-The project is in development, at the moment.
+Rigth now it includes:
+
+- Every time a user enters the page, or click the "Landing Page" button, it will send me an event in Facebook Pixel.
