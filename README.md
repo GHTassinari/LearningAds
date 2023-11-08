@@ -5,4 +5,4 @@ I will include google ads and facebook ads script to the page, so when I open th
 
 Rigth now it includes:
 
-- Every time a user enters the page, or click the "Landing Page" button, it will send me an event in Facebook Pixel.
+- Every time a user enters the page, or click the "Landing Page" button, it will send me an event on the Facebook business page. The landing page button counts as a register event.
